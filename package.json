@@ -1,0 +1,29 @@
+{
+  "name": "ns_playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.1",
+    "@types/lodash": "4.14.168",
+    "@types/styled-components": "5.1.7",
+    "html-webpack-plugin": "5.3.0",
+    "styled-components": "5.2.1",
+    "ts-loader": "8.0.17",
+    "webpack-cli": "4.5.0",
+    "webpack": "5.24.4",
+    "webpack-dev-server": "3.11.2"
+  },
+  "scripts": {
+    "watch": "webpack serve",
+    "build": "webpack",
+    "clean": "rm -rf dist"
+  }
+}
