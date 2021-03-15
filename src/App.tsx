@@ -1,12 +1,12 @@
 import React from 'react'
 import { GlobalStyle, Wrapper } from './App.styles'
-import { Counter } from './components/Counter/Counter'
+import { Field } from './components/FIeld/Field'
 
 const App = () => {
     return <Wrapper>
         <GlobalStyle/>
 
-        <Counter initialValue={0}/>
+        <Field />
 
     </Wrapper>
 }
